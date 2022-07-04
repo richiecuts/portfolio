@@ -5,6 +5,7 @@ Text Color (black): #2b2b2b;
 secondary Color (grey): #eeeeee;
 primary Color (gray80): #cccccc;
  */
+ 
  :root {
     --primary-color: rgb(122, 122, 122);
     --secondary-color: rgb(149, 149, 149);
@@ -13,7 +14,7 @@ primary Color (gray80): #cccccc;
     --box-shadow: 4px 3px 19px 0px rgba(0,0,0,10);
   }
  * {
-     box-sizing: border-box;
+     box-sizing: border-box
  }
 
 .page-header  {
@@ -77,7 +78,7 @@ button{
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid rgba (0, 0, 0, 0.3);
+    border-bottom: 2px solid black;
     box-shadow: var(--box-shadow);
 }
 
@@ -95,6 +96,7 @@ button{
 }
 
 .profile {
+    
     max-width: 700px;
     margin: 100px auto;
     text-align: center;
@@ -182,10 +184,12 @@ a:active {
 .contact-me {
     text-align: center;
     
+    
 }
 
 .contact-menu {
     display: block;
+    text-align: center;
     
 }
 
@@ -238,12 +242,12 @@ table {
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 400px) {
     .grid {
       grid-template-columns: 1fr;
     }
   }
-  @media all and (min-width: 500px) and (max-width: 750px){
+  @media all and (min-width: 400px) and (max-width: 750px){
     .grid {
       grid-template-columns: 1fr 1fr;
     }
