@@ -14,7 +14,7 @@ primary Color (gray80): #cccccc;
     --box-shadow: 4px 3px 19px 0px rgba(0,0,0,10);
   }
  * {
-     box-sizing: border-box
+     box-sizing: border-box;
  }
 
 .page-header  {
@@ -65,12 +65,12 @@ h1 {
 
 
 
-button:hover, button:focus {
+.button:hover, button:focus {
     cursor: pointer;
     opacity: 0.8;
 }
 
-button{
+.button{
     border: none;
     font-family: inherit;
     background-color: var(--third-color);
@@ -80,7 +80,10 @@ button{
     border-radius: 3px;
     border-bottom: 2px solid black;
     box-shadow: var(--box-shadow);
+    
 }
+    
+
 
 .profile-portrait {
     display: flex;
@@ -137,21 +140,18 @@ button{
     
 }
 
-a {
+.page-header_item:last-child{
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:visited {
-    color: var(--text-color)
-}
 
-a:hover, a:focus {
+.page-header_item:last-child:hover, .page-header_item:last-child:focus {
     color: #eeeeee;
     text-decoration: none;
 }
 
-a:active {
+.page-header_item:last-child:active {
     color: var(--text-color)
 }
 
@@ -174,12 +174,9 @@ a:active {
       display: block;
   }
 
-  .button-element {
-    animation: rubberBand;
-    animation-duration: 2s;
 
 
-  }
+  
 
 .contact-me {
     text-align: center;
@@ -229,9 +226,14 @@ table {
             to {
             transform: translate(30px, 50px);
             }
-
-
 }
+
+
+
+
+
+
+
 
 .lights {
     animation: 4s color-change infinite alternate linear;
