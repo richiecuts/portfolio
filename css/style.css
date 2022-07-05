@@ -107,8 +107,8 @@ h1 {
 }
 
 .profile {
-    
-    max-width: 550px;
+    min-width: 300px;
+    max-width: 500px;
     margin: 100px auto;
     text-align: center;
 }
