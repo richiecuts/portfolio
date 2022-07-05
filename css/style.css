@@ -39,6 +39,7 @@ body {
 }
 
 .hello {
+    display: flex;
     font-size: 25px;
     font-weight: bolder;
     color: var(--text-color)
