@@ -97,7 +97,7 @@ h1 {
     display: flex;
     float: left;
     width: 250px;
-    margin-right: 40px;  
+    margin-right: 60px;  
     border-radius: 50%;
     box-shadow: var(--box-shadow);
 }
@@ -107,8 +107,8 @@ h1 {
 }
 
 .profile {
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 370px;
+    max-width: 750px;
     margin: 100px auto;
     text-align: center;
 }
