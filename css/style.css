@@ -39,7 +39,7 @@ body {
 }
 
 .hello {
-    display: flex;
+    
     font-size: 25px;
     font-weight: bolder;
     color: var(--text-color)
@@ -106,7 +106,7 @@ h1 {
 }
 
 .profile {
-    
+    min-width: 320px;
     max-width: 700px;
     margin: 100px auto;
     text-align: center;
