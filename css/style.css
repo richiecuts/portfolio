@@ -47,20 +47,6 @@ body {
    
 }
 
-.hello {
-    font-size: 25px;
-    font-weight: bolder;
-    color: var(--text-color);
-    
-    margin: 10px;
-    margin-left: 500px;
-    padding: 10px;
-    width: 300px;
-    text-align: center;
-    position: relative; right: 300px;
-    
-}
-
 
 
 .contact {
@@ -69,18 +55,13 @@ body {
 
 
 h1 {
-    font-size: 50px; 
+    font-size: 25px; 
     font-weight: 400;
     text-align: center;
     color: var(--text-color)
 }
 
-.ramdass {
-    
-    font-size: 20px;
-    font-weight: lighter;
 
-}
 
 
 
@@ -111,7 +92,8 @@ h1 {
 
 
 .profile-portrait {
-    display: flex;
+
+    
     float: left;
     width: 250px;
     border-radius: 50%;
@@ -124,13 +106,7 @@ h1 {
     clear: both;
 }
 
-.profile { 
-    display: block;
-  
-
-}
 .profile {
-    
     min-width: 320px;
     max-width: 700px;
     margin: 100px auto;
@@ -308,7 +284,9 @@ table {
     }
     h1 {
       font-size: 50px;
+    
     }
+ 
 
   }
 
