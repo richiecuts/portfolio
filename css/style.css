@@ -21,11 +21,11 @@ primary Color (gray80): #cccccc;
     display: flex;
     width: 100%;
     padding: 5px;
-    border: 1px solid black;
+    border-bottom: 3px solid black;
 }
 
 .navigation-list {
-    border: 1px solid black;
+    
     margin: 10px;
     padding: 20px;
 }
@@ -36,7 +36,7 @@ primary Color (gray80): #cccccc;
     display: flex;
     width: 100%;
     padding: 5px;
-    border: 1px solid black;
+    
     
 }
 
@@ -51,7 +51,7 @@ body {
     font-size: 25px;
     font-weight: bolder;
     color: var(--text-color);
-    border: 1px solid black;
+    
     margin: 10px;
     margin-left: 500px;
     padding: 10px;
@@ -62,7 +62,7 @@ body {
 }
 
 p { 
-    border: 1px solid black;
+   
     margin: 10px;
     margin-left: 250px;
     padding: 10px;
@@ -124,7 +124,6 @@ h1 {
     width: 250px;
     border-radius: 50%;
     box-shadow: var(--box-shadow);
-    border: 1px solid black;
     position: relative; left: -75px; top: -60px;
 }
 
@@ -139,14 +138,13 @@ h1 {
     margin: 100px auto;
     padding: 100px;
     text-align: center;
-    border: 1px solid black;
+    
 }
 
 .page-footer {
     clear: both;
     flex-direction: column;
     text-align: center;
-    border: 1px solid black;
     margin: 400px;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -154,7 +152,7 @@ h1 {
     padding-top: 5px;
     height: 300px;
     width: 350px;
-    position: relative; top: 50px;
+    
    
 }
 
@@ -186,7 +184,7 @@ h1 {
     width: 60px;
     margin: 20px;
     padding: 5px;
-    border: 1px solid black;
+  
    
     
     
@@ -213,11 +211,13 @@ h1 {
     gap: 20px 20px;
     margin: 20px;
     padding: 20px;
+    
 }
 
 .grid_item {
     background-color: var(--secondary-color);
-    border: black 1px solid;
+    border: solid black 2px;
+   
 }
 
 
